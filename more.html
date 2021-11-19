@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More - gilRich Clone</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <!-- To Do: Wifi Icon v -->
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>10:10</span>
+        </div>
+        <div class="status-bar__column">
+            <span>11%</span>
+            <!-- Battery Icon v -->
+            <i class="fas fa-battery-full fa-lg"></i>
+            <!-- Lighting Icon v -->
+            <i class="fas fa-bolt"></i>
+        </div> 
+    </div>
+
+    <header class="screen-header">
+        <h1 class="screen-header__title">More</h1>
+        <div class="screen-header__icons">
+            <span><i class="fas fa-search fa-lg"></i></span>
+            <span><i class="fas fa-music fa-lg"></i></span>
+            <div class="screen-header__icons-container">
+                <span><a href="setting.html"><i class="fas fa-cog fa-lg"></i></a></span>
+                <span class="screen-header__notification"></span>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-screen more-screen">
+        <div class="user-component">
+            <div class="user-component__column">
+                <img src="images/profile.gif" class="user-component__avatar user-component__avatar--xl">
+                <div class="user-component__text">
+                    <h4 class="user-component__title">gilRich</h4>
+                    <div class="user-component__phone-number">
+                        <h6 class="user-component__subtitle">+82 10-4339-7878</h6><span><i class="fas fa-info-circle fa-m"></i></span>
+                    </div>
+                </div>
+            </div>
+            <div class="user-component__column">
+                <i class="far fa-comment-alt fa-2x user-component__m-icon--color"></i>
+            </div>
+        </div>
+
+        <div class="icon-row">
+            <div class="icon-row__icon">
+                <i class="far fa-calendar"></i>
+                <span>Calendar</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="far fa-hdd"></i>
+                <span>Talk Drive</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="far fa-grin-stars"></i>
+                <span>Emoticons</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="far fa-image"></i>
+                <span>Themes</span>
+            </div>
+        </div>
+
+        <div class="more-suggestions">
+            <h4 class="more-suggestions__title">Suggestions</h4>
+            <div class="more-suggestions__icons">
+                <div class="more-suggestions__icon">
+                    <div class="more-suggestions__icon-image"><i class="fas fa-quote-right"></i></div>
+                    <span class="more-suggestions__icon-text">gilRich Story</span>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn"><a class="nav__link" href="friends.html"><i class="far fa-user fa-2x"></i></a></li>
+            <li class="nav__btn"><a class="nav__link" href="chats.html">
+                <span class="nav__notification badge">1</span>
+                <i class="far fa-comment fa-2x"></i></a></li>
+            <li class="nav__btn"><a class="nav__link" href="find.html"><i class="fas fa-search fa-2x"></i></a></li>
+            <li class="nav__btn"><a class="nav__link" href="more.html"><span class="nav__notification2 hidden"></span><i class="fas fa-ellipsis-h fa-2x"></i></a></li>
+        </ul>
+    </nav>
+
+    <!-- no-mobile__screen -->
+    <div id="no-mobile">
+        <span>Your screen is too big!</span>
+    </div>
+
+    <script src="https://kit.fontawesome.com/7a6b91359a.js" crossorigin="anonymous"></script>
+</body>
+</html>
